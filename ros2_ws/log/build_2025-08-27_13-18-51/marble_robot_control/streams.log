@@ -1,0 +1,58 @@
+[0.023s] Invoking command in '/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/src/marble_robot_control -DCMAKE_INSTALL_PREFIX=/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control
+[0.299s] -- The C compiler identification is GNU 11.4.0
+[1.022s] -- The CXX compiler identification is GNU 11.4.0
+[1.651s] -- Detecting C compiler ABI info
+[1.888s] -- Detecting C compiler ABI info - done
+[1.900s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.902s] -- Detecting C compile features
+[1.904s] -- Detecting C compile features - done
+[1.913s] -- Detecting CXX compiler ABI info
+[2.200s] -- Detecting CXX compiler ABI info - done
+[2.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.213s] -- Detecting CXX compile features
+[2.214s] -- Detecting CXX compile features - done
+[2.238s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.481s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.686s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[3.033s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.048s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.071s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.109s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.284s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.292s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.671s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.288s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.876s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.909s] -- Looking for pthread.h
+[12.197s] -- Looking for pthread.h - found
+[12.198s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.443s] -- Found Threads: TRUE  
+[12.577s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.731s] -- Added test 'lint_cmake' to check CMake code style
+[12.734s] -- Added test 'xmllint' to check XML markup files
+[12.739s] -- Configuring done
+[12.747s] -- Generating done
+[12.750s] -- Build files have been written to: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control
+[12.765s] Invoked command in '/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/src/marble_robot_control -DCMAKE_INSTALL_PREFIX=/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control
+[12.770s] Invoking command in '/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control -- -j16 -l16
+[12.822s] Invoked command in '/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control -- -j16 -l16
+[12.837s] Invoking command in '/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control
+[12.845s] -- Install configuration: ""
+[12.847s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/ament_index/resource_index/package_run_dependencies/marble_robot_control
+[12.847s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/ament_index/resource_index/parent_prefix_path/marble_robot_control
+[12.848s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/environment/ament_prefix_path.sh
+[12.849s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/environment/ament_prefix_path.dsv
+[12.849s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/environment/path.sh
+[12.849s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/environment/path.dsv
+[12.850s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/local_setup.bash
+[12.850s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/local_setup.sh
+[12.850s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/local_setup.zsh
+[12.851s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/local_setup.dsv
+[12.851s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/package.dsv
+[12.852s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/ament_index/resource_index/packages/marble_robot_control
+[12.852s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/cmake/marble_robot_controlConfig.cmake
+[12.853s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/cmake/marble_robot_controlConfig-version.cmake
+[12.853s] -- Installing: /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/package.xml
+[12.855s] Invoked command in '/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/build/marble_robot_control
