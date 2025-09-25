@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.8)
 project(marble_robot_control)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
@@ -8,9 +11,45 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
+# Add executable
+add_executable(eiei_node src/eiei_node.cpp)
+add_executable(receiver_node src/tools/receiver_node.cpp)
+add_executable(controller_node src/controller_node.cpp)
+
+# Add dependencies to the executable
+ament_target_dependencies(eiei_node
+  rclcpp
+  std_msgs
+  geometry_msgs
+)
+ament_target_dependencies(receiver_node
+  rclcpp
+  std_msgs
+  geometry_msgs
+)
+ament_target_dependencies(controller_node
+  rclcpp
+  std_msgs
+  geometry_msgs
+  sensor_msgs
+)
+
+# Install the executable
+install(TARGETS
+  eiei_node
+  receiver_node
+  controller_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(
+  DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

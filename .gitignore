@@ -1,0 +1,16 @@
+# ROS 2 colcon outputs
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+ros2_ws/lib/
+ros2_ws/test/
+ros2_ws/include/
+ros2_ws/src/.vscode/
+
+# PlatformIO build cache
+ros2_ws/.pio/
+
+# Python virtual environment
+.venv/
+LOW_LEVEL/
+
