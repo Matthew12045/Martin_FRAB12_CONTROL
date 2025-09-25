@@ -197,117 +197,6 @@ marble_robot_control_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/marble_robot_control_uninstall.dir/build.make CMakeFiles/marble_robot_control_uninstall.dir/build
 .PHONY : marble_robot_control_uninstall/fast
 
-#=============================================================================
-# Target rules for targets named eiei_node
-
-# Build rule for target.
-eiei_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eiei_node
-.PHONY : eiei_node
-
-# fast build rule for target.
-eiei_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eiei_node.dir/build.make CMakeFiles/eiei_node.dir/build
-.PHONY : eiei_node/fast
-
-#=============================================================================
-# Target rules for targets named receiver_node
-
-# Build rule for target.
-receiver_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 receiver_node
-.PHONY : receiver_node
-
-# fast build rule for target.
-receiver_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver_node.dir/build.make CMakeFiles/receiver_node.dir/build
-.PHONY : receiver_node/fast
-
-#=============================================================================
-# Target rules for targets named controller_node
-
-# Build rule for target.
-controller_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 controller_node
-.PHONY : controller_node
-
-# fast build rule for target.
-controller_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/controller_node.dir/build.make CMakeFiles/controller_node.dir/build
-.PHONY : controller_node/fast
-
-src/controller_node.o: src/controller_node.cpp.o
-.PHONY : src/controller_node.o
-
-# target to build an object file
-src/controller_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/controller_node.dir/build.make CMakeFiles/controller_node.dir/src/controller_node.cpp.o
-.PHONY : src/controller_node.cpp.o
-
-src/controller_node.i: src/controller_node.cpp.i
-.PHONY : src/controller_node.i
-
-# target to preprocess a source file
-src/controller_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/controller_node.dir/build.make CMakeFiles/controller_node.dir/src/controller_node.cpp.i
-.PHONY : src/controller_node.cpp.i
-
-src/controller_node.s: src/controller_node.cpp.s
-.PHONY : src/controller_node.s
-
-# target to generate assembly for a file
-src/controller_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/controller_node.dir/build.make CMakeFiles/controller_node.dir/src/controller_node.cpp.s
-.PHONY : src/controller_node.cpp.s
-
-src/eiei_node.o: src/eiei_node.cpp.o
-.PHONY : src/eiei_node.o
-
-# target to build an object file
-src/eiei_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eiei_node.dir/build.make CMakeFiles/eiei_node.dir/src/eiei_node.cpp.o
-.PHONY : src/eiei_node.cpp.o
-
-src/eiei_node.i: src/eiei_node.cpp.i
-.PHONY : src/eiei_node.i
-
-# target to preprocess a source file
-src/eiei_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eiei_node.dir/build.make CMakeFiles/eiei_node.dir/src/eiei_node.cpp.i
-.PHONY : src/eiei_node.cpp.i
-
-src/eiei_node.s: src/eiei_node.cpp.s
-.PHONY : src/eiei_node.s
-
-# target to generate assembly for a file
-src/eiei_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/eiei_node.dir/build.make CMakeFiles/eiei_node.dir/src/eiei_node.cpp.s
-.PHONY : src/eiei_node.cpp.s
-
-src/tools/receiver_node.o: src/tools/receiver_node.cpp.o
-.PHONY : src/tools/receiver_node.o
-
-# target to build an object file
-src/tools/receiver_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver_node.dir/build.make CMakeFiles/receiver_node.dir/src/tools/receiver_node.cpp.o
-.PHONY : src/tools/receiver_node.cpp.o
-
-src/tools/receiver_node.i: src/tools/receiver_node.cpp.i
-.PHONY : src/tools/receiver_node.i
-
-# target to preprocess a source file
-src/tools/receiver_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver_node.dir/build.make CMakeFiles/receiver_node.dir/src/tools/receiver_node.cpp.i
-.PHONY : src/tools/receiver_node.cpp.i
-
-src/tools/receiver_node.s: src/tools/receiver_node.cpp.s
-.PHONY : src/tools/receiver_node.s
-
-# target to generate assembly for a file
-src/tools/receiver_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/receiver_node.dir/build.make CMakeFiles/receiver_node.dir/src/tools/receiver_node.cpp.s
-.PHONY : src/tools/receiver_node.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -323,18 +212,6 @@ help:
 	@echo "... test"
 	@echo "... marble_robot_control_uninstall"
 	@echo "... uninstall"
-	@echo "... controller_node"
-	@echo "... eiei_node"
-	@echo "... receiver_node"
-	@echo "... src/controller_node.o"
-	@echo "... src/controller_node.i"
-	@echo "... src/controller_node.s"
-	@echo "... src/eiei_node.o"
-	@echo "... src/eiei_node.i"
-	@echo "... src/eiei_node.s"
-	@echo "... src/tools/receiver_node.o"
-	@echo "... src/tools/receiver_node.i"
-	@echo "... src/tools/receiver_node.s"
 .PHONY : help
 
 

@@ -1,7 +1,3 @@
-/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/lib/marble_robot_control/eiei_node
-/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/lib/marble_robot_control/receiver_node
-/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/lib/marble_robot_control/controller_node
-/home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/launch/launch.py
 /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/ament_index/resource_index/package_run_dependencies/marble_robot_control
 /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/ament_index/resource_index/parent_prefix_path/marble_robot_control
 /home/martin/FIBOX/Martin_FRAB12_CONTROL/ros2_ws/install/marble_robot_control/share/marble_robot_control/environment/ament_prefix_path.sh
