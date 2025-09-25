@@ -5,9 +5,9 @@ ros2_ws/log/
 ros2_ws/include/
 ros2_ws/lib/
 ros2_ws/test/
-ros2_ws/src/.vscode
-LOW_LEVEL
-
+ros2_ws/src/.vscode/
+LOW_LEVEL/
+.vscode/
 # PlatformIO build cache
 ros2_ws/.pio/
 
